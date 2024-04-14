@@ -1,36 +1,85 @@
-{/* <div id="parent">
-     <div id="child">
-         <h1>I'm h1 tag</h1>
-         <h2>I'm h1 tag</h2>
-       </div>
-  <div id="child2">
-         <h1>I'm h1 tag</h1>
-          <h2>I'm h1 tag</h2>
-       </div>
-  </div>
- 
-  ReactElement(Object) => HTML(Browser Understands) */}
-
   import React from "react";
   import ReactDOM  from "react-dom/client";
 
-  const Title=()=>(
-    <h1 className="head" tabIndex="5">
-      Namaste React using JSX
-    </h1>
-  )
-//JSX
+  const Header=()=>{
+    return(
+      <div className="header">
+        <div className="logo-container">
+          <img className="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP-Stp3j9l7A7FmeODEQvEwQcBTz_-55i1uZrCXG6lyA&s"></img>
+        </div>
+        <div className="nav-items">
+          <ul>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Cart</li>
+          </ul>
 
-const HeadingComponent=()=>(
-  <>
-  <div id="container">
-    <Title/>
-    <h1 className="heading">functional component</h1>
-  </div>
-  <div id="container-2"></div>
-  </>
-)
+        </div>
+      </div>
+    )
+  }
+  const Body=()=>{
+    return(
+      <div className="body">
+        <div className="search">Search</div>
+        <div className="res-container">
+        {/* Restaurant card component- break into new component for reusability */}
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        </div>
+      </div>
+    )
+  }
+
+  const RestaurantCard=()=>{
+    return(
+      <div className="res-card" style={{backgroundColor:"#f0f0f0"}}>
+        <img className="res-logo" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/w0kidct9etk1ak5y3ogv" alt="res-logo"></img>
+       <h3>Nany's Bakery</h3>
+       <h4>Bakery, Cakes, Pastries</h4>
+       <h6>3.4 Stars</h6>
+       <h6>34 mins</h6>
+      </div>
+    )
+      
+    
+  }
+
+  const AppLayout=()=>{
+    return(
+      <div className="app">
+        {/* header
+        body
+        footer */}
+        <Header/>
+        <Body/>
+      </div>
+    )
+  }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<HeadingComponent/>);
+root.render(<AppLayout/>);

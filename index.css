@@ -1,3 +1,49 @@
-#heading {
-    color: red;
+.header {
+    /* to display all nav items and logo in same line */
+    display: flex; 
+    /* to move logo to left and list items to right */
+    justify-content: space-between;
+     /* to make it look like a nav-bar */
+     border: 1px solid black;
+}
+.logo{
+   /* logo size */
+   width: 100px;
+}
+.nav-items{
+    padding: 0px 20px;
+}
+
+.nav-items>ul{
+     /* to show the list items side by side not one below other */
+     display: flex;
+     /* to remove the list item bullets */
+     list-style-type: none;
+     font-size: 24px;
+}
+.nav-items>ul>li{
+    /* give space between list items */
+    padding: 10px;
+    margin: 10px;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-card{
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    /* give a transparent border already so that on hover nothing new border gets created and it prevents the juggly looking cards when hovered */
+    border: 1px solid transparent;
+}
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.search{
+    padding: 10px;
+}
+.res-logo{
+    width: 100%;
 }
