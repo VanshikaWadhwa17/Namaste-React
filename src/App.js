@@ -1,24 +1,9 @@
   import React from "react";
   import ReactDOM  from "react-dom/client";
+  import Header from "./components/Header";
+  import Body from "./components/Body";
 
-  const Header=()=>{
-    return(
-      <div className="header">
-        <div className="logo-container">
-          <img className="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP-Stp3j9l7A7FmeODEQvEwQcBTz_-55i1uZrCXG6lyA&s"></img>
-        </div>
-        <div className="nav-items">
-          <ul>
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Contact Us</li>
-              <li>Cart</li>
-          </ul>
-
-        </div>
-      </div>
-    )
-  }
+  
   const resList=[
     {
         "info": {
@@ -1486,56 +1471,6 @@
         }
     }
 ]
-  const Body=()=>{
-    return(
-      <div className="body">
-        <div className="search">Search</div>
-        <div className="res-container">
-        {/* Restaurant card component- break into new component for reusability */}
-        {/* passing props to a component: */}
-        {/* <RestaurantCard resData={resList[0]}/>
-        <RestaurantCard resData={resList[1]}/>
-        <RestaurantCard resData={resList[2]}/>
-        <RestaurantCard resData={resList[3]}/>
-        <RestaurantCard resData={resList[4]}/>
-        <RestaurantCard resData={resList[5]}/>
-        <RestaurantCard resData={resList[6]}/>
-        <RestaurantCard resData={resList[7]}/>
-        <RestaurantCard resData={resList[8]}/> */}
-       
-       {resList.map((restaurant)=>(
-        <RestaurantCard key={restaurant.info.id} resData={restaurant}/>
-       ))}
-
-       {/* index of the loop is also used as key but react official documentation says using index is bad practice */}
-       {/* {resList.map((restaurant,index)=>(
-        <RestaurantCard key={index} resData={restaurant}/>
-       ))} */}
-        
-        </div>
-      </div>
-    )
-  }
-    
-
-  const RestaurantCard=(props)=>{
-    // console.log(props)
-    const { resData} = props
-    const {cloudinaryImageId, name, avgRating, cuisines, costForTwo}=resData.info
-    const {deliveryTime} =resData.info.sla
-    return(
-      <div className="res-card" style={{backgroundColor:"#f0f0f0"}}>
-        <img className="res-logo" src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+cloudinaryImageId} alt="res-logo"></img>
-       <h3>{name}</h3>
-       <h4>{cuisines.join(",")}</h4>
-       <h6>{avgRating} stars</h6>
-       <h6>{costForTwo}</h6>
-       <h6>{deliveryTime}mins</h6>
-      </div>
-    )
-      
-    
-  }
 
   const AppLayout=()=>{
     return(
