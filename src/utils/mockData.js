@@ -4,8 +4,6 @@ const resList=[
             "id": "691805",
             "name": "UBQ by Barbeque Nation",
             "cloudinaryImageId": "0d36ee943be5611d610ec9864b1bcf51",
-            "locality": "Kamla Palace",
-            "areaName": "GMS Road",
             "costForTwo": "₹300 for two",
             "cuisines": [
                 "North Indian",
@@ -16,67 +14,7 @@ const resList=[
                 "Desserts"
             ],
             "avgRating": 4.1,
-            "parentId": "10804",
-            "avgRatingString": "4.1",
-            "totalRatingsString": "100+",
-            "sla": {
-                "deliveryTime": 30,
-                "lastMileTravel": 4,
-                "serviceability": "SERVICEABLE",
-                "slaString": "30-35 mins",
-                "lastMileTravelString": "4.0 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-04-14 23:30:00",
-                "opened": true
-            },
-            "badges": {
-                "imageBadges": [
-                    {
-                        "imageId": "Rxawards/_CATEGORY-Thali.png",
-                        "description": "Delivery!"
-                    }
-                ]
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "Delivery!",
-                                    "imageId": "Rxawards/_CATEGORY-Thali.png"
-                                }
-                            }
-                        ]
-                    },
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "50% OFF",
-                "subHeader": "UPTO ₹90"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/ubq-by-barbeque-nation-kamla-palace-gms-road-dehradun-691805",
-            "type": "WEBLINK"
+            "deliveryTime": 30,  
         }
     },
     {
@@ -84,8 +22,6 @@ const resList=[
             "id": "68781",
             "name": "Bikanervala",
             "cloudinaryImageId": "vmhyp6xup1nifix6v17e",
-            "locality": "Chakrata Road",
-            "areaName": "Chukkuwala",
             "costForTwo": "₹150 for two",
             "cuisines": [
                 "Sweets",
@@ -94,74 +30,14 @@ const resList=[
             ],
             "avgRating": 4.3,
             "veg": true,
-            "parentId": "45936",
-            "avgRatingString": "4.3",
-            "totalRatingsString": "1K+",
-            "sla": {
-                "deliveryTime": 18,
-                "serviceability": "SERVICEABLE",
-                "slaString": "15-20 mins",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-04-14 22:45:00",
-                "opened": true
-            },
-            "badges": {
-                "imageBadges": [
-                    {
-                        "imageId": "v1695133679/badges/Pure_Veg111.png",
-                        "description": "pureveg"
-                    }
-                ]
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "pureveg",
-                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
-                                }
-                            }
-                        ]
-                    },
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "10% OFF",
-                "subHeader": "UPTO ₹100"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/bikanervala-chakrata-road-chukkuwala-dehradun-68781",
-            "type": "WEBLINK"
-        }
-    },
+            "deliveryTime": 18,
+    }
+},
     {
         "info": {
             "id": "69769",
             "name": "Aman Vegetarian",
             "cloudinaryImageId": "ygczg6efdbjietl1req7",
-            "locality": "Paltan Bazar",
-            "areaName": "Paltan Bazaar",
             "costForTwo": "₹260 for two",
             "cuisines": [
                 "North Indian",
@@ -169,77 +45,7 @@ const resList=[
                 "Chinese"
             ],
             "avgRating": 4.3,
-            "parentId": "13687",
-            "avgRatingString": "4.3",
-            "totalRatingsString": "10K+",
-            "sla": {
-                "deliveryTime": 18,
-                "lastMileTravel": 1.3,
-                "serviceability": "SERVICEABLE",
-                "slaString": "15-20 mins",
-                "lastMileTravelString": "1.3 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-04-14 23:30:00",
-                "opened": true
-            },
-            "badges": {
-                "imageBadges": [
-                    {
-                        "imageId": "Rxawards/_CATEGORY-Dal%20Makhani.png",
-                        "description": "Delivery!"
-                    },
-                    {
-                        "imageId": "v1695133679/badges/Pure_Veg111.png",
-                        "description": "pureveg"
-                    }
-                ]
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "Delivery!",
-                                    "imageId": "Rxawards/_CATEGORY-Dal%20Makhani.png"
-                                }
-                            },
-                            {
-                                "attributes": {
-                                    "description": "pureveg",
-                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
-                                }
-                            }
-                        ]
-                    },
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "50% OFF",
-                "subHeader": "UPTO ₹100"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/aman-vegetarian-paltan-bazar-paltan-bazaar-dehradun-69769",
-            "type": "WEBLINK"
+            "deliveryTime": 18, 
         }
     },
     {
@@ -247,8 +53,6 @@ const resList=[
             "id": "69447",
             "name": "Gaylord Express",
             "cloudinaryImageId": "uj68ybtfwbydewraxzhm",
-            "locality": "Paltan Bazar",
-            "areaName": "Paltan Bazaar",
             "costForTwo": "₹250 for two",
             "cuisines": [
                 "Bakery",
@@ -257,51 +61,7 @@ const resList=[
                 "Beverages"
             ],
             "avgRating": 3.8,
-            "parentId": "13696",
-            "avgRatingString": "3.8",
-            "totalRatingsString": "10K+",
-            "sla": {
-                "deliveryTime": 22,
-                "lastMileTravel": 1,
-                "serviceability": "SERVICEABLE",
-                "slaString": "20-25 mins",
-                "lastMileTravelString": "1.0 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-04-21 00:00:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "50% OFF",
-                "subHeader": "UPTO ₹100"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/gaylord-express-paltan-bazar-paltan-bazaar-dehradun-69447",
-            "type": "WEBLINK"
+            "deliveryTime": 22,
         }
     },
     {
@@ -309,8 +69,6 @@ const resList=[
             "id": "371422",
             "name": "Handi punjab ki",
             "cloudinaryImageId": "vozwrqdkvfcfutehx4ld",
-            "locality": "Rajpur Road",
-            "areaName": "Hathibarkala Salwala",
             "costForTwo": "₹350 for two",
             "cuisines": [
                 "North Indian",
@@ -319,77 +77,7 @@ const resList=[
             ],
             "avgRating": 4.4,
             "veg": true,
-            "parentId": "93115",
-            "avgRatingString": "4.4",
-            "totalRatingsString": "10K+",
-            "sla": {
-                "deliveryTime": 29,
-                "lastMileTravel": 3,
-                "serviceability": "SERVICEABLE",
-                "slaString": "25-30 mins",
-                "lastMileTravelString": "3.0 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-04-14 23:30:00",
-                "opened": true
-            },
-            "badges": {
-                "imageBadges": [
-                    {
-                        "imageId": "Rxawards/_CATEGORY-North%20Indian.png",
-                        "description": "Delivery!"
-                    },
-                    {
-                        "imageId": "v1695133679/badges/Pure_Veg111.png",
-                        "description": "pureveg"
-                    }
-                ]
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "Delivery!",
-                                    "imageId": "Rxawards/_CATEGORY-North%20Indian.png"
-                                }
-                            },
-                            {
-                                "attributes": {
-                                    "description": "pureveg",
-                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
-                                }
-                            }
-                        ]
-                    },
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "60% OFF",
-                "subHeader": "UPTO ₹120"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/handi-punjab-ki-rajpur-road-hathibarkala-salwala-dehradun-371422",
-            "type": "WEBLINK"
+            "deliveryTime": 29,
         }
     },
     {
@@ -397,8 +85,6 @@ const resList=[
             "id": "74373",
             "name": "Walk In Woods",
             "cloudinaryImageId": "rx6kpst6wxyw9vvj7wo8",
-            "locality": "General Mahadev Singh Road",
-            "areaName": "Ballupur",
             "costForTwo": "₹450 for two",
             "cuisines": [
                 "North Indian",
@@ -406,87 +92,7 @@ const resList=[
                 "Biryani"
             ],
             "avgRating": 4.3,
-            "parentId": "7148",
-            "avgRatingString": "4.3",
-            "totalRatingsString": "10K+",
-            "sla": {
-                "deliveryTime": 25,
-                "lastMileTravel": 2.9,
-                "serviceability": "SERVICEABLE",
-                "slaString": "25-30 mins",
-                "lastMileTravelString": "2.9 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-04-15 00:00:00",
-                "opened": true
-            },
-            "badges": {
-                "imageBadges": [
-                    {
-                        "imageId": "Rxawards/_CATEGORY-North%20Indian.png",
-                        "description": "Delivery!"
-                    },
-                    {
-                        "imageId": "Rxawards/_CATEGORY-Snacks.png",
-                        "description": "Delivery!"
-                    },
-                    {
-                        "imageId": "Rxawards/_CATEGORY-Thali.png",
-                        "description": "Delivery!"
-                    }
-                ]
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {
-                        "badgeObject": [
-                            {
-                                "attributes": {
-                                    "description": "Delivery!",
-                                    "imageId": "Rxawards/_CATEGORY-North%20Indian.png"
-                                }
-                            },
-                            {
-                                "attributes": {
-                                    "description": "Delivery!",
-                                    "imageId": "Rxawards/_CATEGORY-Snacks.png"
-                                }
-                            },
-                            {
-                                "attributes": {
-                                    "description": "Delivery!",
-                                    "imageId": "Rxawards/_CATEGORY-Thali.png"
-                                }
-                            }
-                        ]
-                    },
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "60% OFF",
-                "subHeader": "UPTO ₹120"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/walk-in-woods-general-mahadev-singh-road-ballupur-dehradun-74373",
-            "type": "WEBLINK"
+            "deliveryTime": 25,
         }
     },
     {
@@ -494,8 +100,6 @@ const resList=[
             "id": "532213",
             "name": "Chilli'Z Restro",
             "cloudinaryImageId": "mzsuzzznrww2mpzwk27d",
-            "locality": "Prem Nagar",
-            "areaName": "Patel Nagar",
             "costForTwo": "₹300 for two",
             "cuisines": [
                 "Indian",
@@ -503,52 +107,7 @@ const resList=[
                 "Mughlai"
             ],
             "avgRating": 4.2,
-            "parentId": "13645",
-            "avgRatingString": "4.2",
-            "totalRatingsString": "1K+",
-            "sla": {
-                "deliveryTime": 20,
-                "lastMileTravel": 2.9,
-                "serviceability": "SERVICEABLE",
-                "slaString": "20-25 mins",
-                "lastMileTravelString": "2.9 km",
-                "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-                "nextCloseTime": "2024-04-14 23:57:00",
-                "opened": true
-            },
-            "badges": {},
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-                "entityBadges": {
-                    "imageBased": {},
-                    "textBased": {},
-                    "textExtendedBadges": {}
-                }
-            },
-            "aggregatedDiscountInfoV3": {
-                "header": "₹120 OFF",
-                "subHeader": "ABOVE ₹199",
-                "discountTag": "FLAT DEAL"
-            },
-            "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                    "lottie": {},
-                    "video": {}
-                }
-            },
-            "reviewsSummary": {},
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-            "link": "https://www.swiggy.com/restaurants/chilliz-restro-prem-nagar-patel-nagar-dehradun-532213",
-            "type": "WEBLINK"
+            "deliveryTime": 20,
         }
     },
     {
