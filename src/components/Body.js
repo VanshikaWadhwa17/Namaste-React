@@ -1,11 +1,15 @@
 import RestaurantCard from "./RestaurantCard";
 import resList from "../utils/mockData";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 
 const Body=()=>{
 
-     const [listOfRestaurants,setListofRestaurants]=useState(resList)
+     const [listOfRestaurants,setListofRestaurants]=useState(resList);
+     useEffect(()=>{
+      console.log("useEffect rendered")
+     },[]) //this comes second- after the body has been rendered
+     console.log("body rendered")// this comes first
     return(
       <div className="body">
         <div className="search">Search</div>
